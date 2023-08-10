@@ -1,5 +1,6 @@
 package cn.iocoder.yudao.module.system;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -13,6 +14,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author 芋道源码
  */
 @SpringBootApplication
+@MapperScan("cn.iocoder.yudao.module.system.controller.select.dao")
 public class SystemServerApplication {
 
     public static void main(String[] args) {
