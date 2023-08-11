@@ -1,4 +1,4 @@
-package cn.iocoder.yudao.module.system.learning.zuoye1;
+package cn.iocoder.yudao.module.system.learning.zuoye1.controller;
 
 /**
  * Justabug Controller
