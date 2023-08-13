@@ -68,6 +68,13 @@ spring:
     database: 0 # 数据库索引
 #    password: 123456 # 密码，建议生产环境开启
 
+#整合MyBatis
+mybatis:
+  #  mapper.xml的目录
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  #  实体类的目录
+  type-aliases-package: cn.iocoder.yudao.module.system.learning.zuoye1.vo
+
 --- #################### MQ 消息队列相关配置 ####################
 spring:
   cloud:

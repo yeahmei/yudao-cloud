@@ -1,8 +1,10 @@
 package cn.iocoder.yudao.module.system;
 
+import cn.iocoder.yudao.module.system.learning.zuoye1.config.ZuoyeAutoConfig;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Import;
 
 /**
  * 项目的启动类
@@ -14,7 +16,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author 芋道源码
  */
 @SpringBootApplication
-@MapperScan("cn.iocoder.yudao.module.system.controller.select.dao")
+@Import(ZuoyeAutoConfig.class)
 public class SystemServerApplication {
 
     public static void main(String[] args) {

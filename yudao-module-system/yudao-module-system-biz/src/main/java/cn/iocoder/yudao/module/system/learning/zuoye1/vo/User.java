@@ -1,10 +1,10 @@
-package cn.iocoder.yudao.module.system.controller.select.vo;
+package cn.iocoder.yudao.module.system.learning.zuoye1.vo;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
-@Getter
-@Setter
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class User {
     private int id;
     private String username;

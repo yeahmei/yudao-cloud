@@ -1,8 +1,8 @@
-package cn.iocoder.yudao.module.system.service.select.impl;
+package cn.iocoder.yudao.module.system.learning.zuoye1.service.impl;
 
-import cn.iocoder.yudao.module.system.controller.select.dao.UserDao;
-import cn.iocoder.yudao.module.system.controller.select.vo.User;
-import cn.iocoder.yudao.module.system.service.select.UserService;
+import cn.iocoder.yudao.module.system.learning.zuoye1.dao.UserDao;
+import cn.iocoder.yudao.module.system.learning.zuoye1.service.UserService;
+import cn.iocoder.yudao.module.system.learning.zuoye1.vo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,11 +26,6 @@ public class UserSeviceImpl implements UserService {
     @Override
     public List<User> queryUserByName(String username) {
         return userDao.getUserByName(username);
-    }
-
-    @Override
-    public int insertUser(User user) {
-        return userDao.insertUser(user);
     }
 }
 
