@@ -4,13 +4,13 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.iocoder.yudao.module.system.learning.zuoye1.dao.UserDao">
     <select id="getUserById" resultType="cn.iocoder.yudao.module.system.learning.zuoye1.vo.User">
-        select * from `system_users` where id=#{id}
+        select * from system_users where id=#{id}
     </select>
     <select id="getUserByAge" resultType="cn.iocoder.yudao.module.system.learning.zuoye1.vo.User">
-        select * from `system_users` where age=#{age}
+        select * from system_users where age=#{age}
     </select>
     <select id="getUserByName" resultType="cn.iocoder.yudao.module.system.learning.zuoye1.vo.User">
-        select * from `system_users` where username like concat('%',#{username},'%')
+        select * from system_users where username like concat('%',#{username},'%')
     </select>
 
 </mapper>

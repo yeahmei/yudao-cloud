@@ -16,7 +16,6 @@ import org.springframework.context.annotation.Import;
  * @author 芋道源码
  */
 @SpringBootApplication
-@Import(ZuoyeAutoConfig.class)
 public class SystemServerApplication {
 
     public static void main(String[] args) {
