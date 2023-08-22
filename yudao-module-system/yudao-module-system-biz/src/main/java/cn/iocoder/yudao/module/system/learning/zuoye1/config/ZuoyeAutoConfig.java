@@ -16,4 +16,3 @@ public class ZuoyeAutoConfig {
         return web -> web.ignoring().antMatchers("/zuoye/**");
     }
 }
-
