@@ -1,5 +1,6 @@
 package cn.iocoder.yudao.module.system.learning.zuoye1.config;
 
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
